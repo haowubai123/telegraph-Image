@@ -71,6 +71,7 @@ export const config = {
     matcher: [
         "/admin/:path*",
         "/api/admin/:path*",
-        "/api/enableauthapi/:path*"
+        "/api/enableauthapi/:path*",
+        "/((?!api/auth|login|_next/static|_next/image|favicon.ico|.*\\.(?:png|jpg|jpeg|gif|webp|svg|ico)$).*)"
     ],
 };
